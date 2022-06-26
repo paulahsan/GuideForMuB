@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>I am mu B | fastpages</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="I am mu B" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hello world" />
+<meta property="og:description" content="Hello world" />
+<link rel="canonical" href="https://paulahsan.github.io/GuideForMuB/fastpages/jupyter/2022/06/24/First-pots-for-heatmap.html" />
+<meta property="og:url" content="https://paulahsan.github.io/GuideForMuB/fastpages/jupyter/2022/06/24/First-pots-for-heatmap.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:image" content="https://paulahsan.github.io/GuideForMuB/images/some_folder/your_image.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-24T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://paulahsan.github.io/GuideForMuB/images/some_folder/your_image.png" />
+<meta property="twitter:title" content="I am mu B" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-06-24T00:00:00-05:00","datePublished":"2022-06-24T00:00:00-05:00","description":"Hello world","headline":"I am mu B","image":"https://paulahsan.github.io/GuideForMuB/images/some_folder/your_image.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://paulahsan.github.io/GuideForMuB/fastpages/jupyter/2022/06/24/First-pots-for-heatmap.html"},"url":"https://paulahsan.github.io/GuideForMuB/fastpages/jupyter/2022/06/24/First-pots-for-heatmap.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/GuideForMuB/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://paulahsan.github.io/GuideForMuB/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/GuideForMuB/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/GuideForMuB/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/GuideForMuB/about/">About Me</a><a class="page-link" href="/GuideForMuB/search/">Search</a><a class="page-link" href="/GuideForMuB/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">I am mu B</h1><p class="page-description">Hello world</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-06-24T00:00:00-05:00" itemprop="datePublished">
+        Jun 24, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/GuideForMuB/categories/#fastpages">fastpages</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/GuideForMuB/categories/#jupyter">jupyter</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/paulahsan/GuideForMuB/tree/master/_notebooks/2022-06-24-First-pots-for-heatmap.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/GuideForMuB/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/paulahsan/GuideForMuB/master?filepath=_notebooks%2F2022-06-24-First-pots-for-heatmap.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/GuideForMuB/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/paulahsan/GuideForMuB/blob/master/_notebooks/2022-06-24-First-pots-for-heatmap.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/GuideForMuB/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fpaulahsan%2FGuideForMuB%2Fblob%2Fmaster%2F_notebooks%2F2022-06-24-First-pots-for-heatmap.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/GuideForMuB/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#Make-a-heatmap">Make a heatmap </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Import-library">Import library </a></li>
+<li class="toc-entry toc-h2"><a href="#Generate-Data">Generate Data </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Plot-Heatmap">Plot Heatmap </a></li>
+<li class="toc-entry toc-h3"><a href="#Plot-cluster-map">Plot cluster map </a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-06-24-First-pots-for-heatmap.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Make-a-heatmap">
+<a class="anchor" href="#Make-a-heatmap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Make a heatmap<a class="anchor-link" href="#Make-a-heatmap"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Import-library">
+<a class="anchor" href="#Import-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>Import library<a class="anchor-link" href="#Import-library"> </a>
+</h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Generate-Data">
+<a class="anchor" href="#Generate-Data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generate Data<a class="anchor-link" href="#Generate-Data"> </a>
+</h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"A"</span><span class="p">,</span><span class="s2">"B"</span><span class="p">,</span><span class="s2">"C"</span><span class="p">]</span> <span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.305377</td>
+      <td>0.364436</td>
+      <td>0.948724</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.100469</td>
+      <td>0.534330</td>
+      <td>0.143337</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.133616</td>
+      <td>0.441121</td>
+      <td>0.912186</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.845171</td>
+      <td>0.277859</td>
+      <td>0.830589</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Plot-Heatmap">
+<a class="anchor" href="#Plot-Heatmap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot Heatmap<a class="anchor-link" href="#Plot-Heatmap"> </a>
+</h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">df</span><span class="p">,</span>
+            <span class="n">cmap</span><span class="o">=</span><span class="s2">"viridis"</span>
+           <span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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%0A">
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Plot-cluster-map">
+<a class="anchor" href="#Plot-cluster-map" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot cluster map<a class="anchor-link" href="#Plot-cluster-map"> </a>
+</h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">clustermap</span><span class="p">(</span><span class="n">df</span><span class="p">,</span>
+            <span class="n">cmap</span><span class="o">=</span><span class="s2">"viridis"</span>
+           <span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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%0A">
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="paulahsan/GuideForMuB"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/GuideForMuB/fastpages/jupyter/2022/06/24/First-pots-for-heatmap.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/GuideForMuB/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/GuideForMuB/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/GuideForMuB/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" target="_blank" title="fastai"><svg class="svg-icon grey"><use xlink:href="/GuideForMuB/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" target="_blank" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/GuideForMuB/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
