@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: I am a &mu;B
-description: This is a notebook based blog by an average (mu) Bioinformatician (B) for newbee or muB.
+title: I am a μB
+description: This is a notebook based blog by an average (μ) Bioinformatician (B) for newbee or μB.
 github_username: paulahsan
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "GuideForMuB"
