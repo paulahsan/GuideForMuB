@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Resources for Bioinformatics",
-            "content": "RNAseq . https://chunjie-sam-liu.life/en/project/2019-08-14-machine-learning-for-rna-seq/ . https://rnabio.org/course/ . Stat book . https://www.biostathandbook.com/ https://web.stanford.edu/class/bios221/book/Chap-Generative.html https://genomicsclass.github.io/book/ . Data analysis book . https://rafalab.github.io/dsbook/regression.html https://r4ds.had.co.nz/exploratory-data-analysis.html . R Book . https://bigbookofr.netlify.app/ http://www.cookbook-r.com/ .",
+            "content": "RNAseq . Machine learning with RNAseq . Perform RNAseq Grifith Lab . Stat book . Hand book of BioStat . Standford Book for Stat . Rafa genome book . Data analysis book . Rafa data analysis book . Cook bok for data analysis . R Book . R book with many trick and hack . common R cookbook .",
             "url": "https://paulahsan.github.io/GuideForMuB/references/bioinfo/resources/2022/06/28/Resources-for-Bioinformatics.html",
             "relUrl": "/references/bioinfo/resources/2022/06/28/Resources-for-Bioinformatics.html",
             "date": " • Jun 28, 2022"
