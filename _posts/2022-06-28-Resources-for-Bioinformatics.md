@@ -2,7 +2,7 @@
 title: "Resources for Bioinformatics"
 description: "Reference from web browser"
 layout: post
-toc: false
+toc: true
 comments: false
 hide: false
 search_exclude: flase
@@ -11,20 +11,24 @@ metadata_key1: metadata_value1
 metadata_key2: metadata_value2
 ---
 # RNAseq
-https://chunjie-sam-liu.life/en/project/2019-08-14-machine-learning-for-rna-seq/
+[Machine learning with RNAseq](https://chunjie-sam-liu.life/en/project/2019-08-14-machine-learning-for-rna-seq/)
 
-https://rnabio.org/course/
+[Perform RNAseq Grifith Lab](https://rnabio.org/course/)
 
 # Stat book
-https://www.biostathandbook.com/
-https://web.stanford.edu/class/bios221/book/Chap-Generative.html
-https://genomicsclass.github.io/book/
+[Hand book of BioStat](https://www.biostathandbook.com/)
+
+[Standford Book for Stat](https://web.stanford.edu/class/bios221/book/Chap-Generative.html)
+
+[Rafa genome book](https://genomicsclass.github.io/book/)
 
 
 # Data analysis book
-https://rafalab.github.io/dsbook/regression.html
-https://r4ds.had.co.nz/exploratory-data-analysis.html
+[Rafa data analysis book](https://rafalab.github.io/dsbook/regression.html)
+
+[Cook bok for data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
 # R Book
-https://bigbookofr.netlify.app/
-http://www.cookbook-r.com/
+[R book with many trick and hack](https://bigbookofr.netlify.app/)
+
+[common R cookbook](http://www.cookbook-r.com/)
